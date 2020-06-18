@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/all.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+</head>
+<body>
+  <header>
+    <!-- Logo is stretched because the nav div is pushing it down more, need to
+    implement the humburger button for the drop down menu -->
+    <img class="logoimg" src="./images/logo.svg" alt="logo">
+    <div id="dropdown">
+      <i onclick="dropmenu()" id="menubtn" class="fas fa-bars fa-3x"></i>
+      <nav id="dropdown-content" class="hidden">
+        <div id="nav-pages">
+          <a class="nav-link">Features</a>
+          <a class="nav-link">Pricing</a>
+          <a class="nav-link">Resources</a>
+        </div>
+        <div id="nav-login">
+          <a class="nav-link">Login</a>
+          <a class="nav-link">Sign Up</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div id="top-section">
+    <img id="topimg" src="./images/illustration-working.svg" alt="illustration-working">
+    <div id="title1">More than just shorter links</div>
+
+    <p>
+      Build your brand’s recognition and get detailed insights 
+      on how your links are performing.
+    </p>
+
+    <div class="get-started">
+      Get Started
+    </div>
+
+  </div>
+
+  <div id="shortener">
+    <input type="text" name="shorteni" />
+    <div id="shorten-btn">Shorten It!</div>
+  </div>
+
+  <div id="advanced-statistics">
+    <h3>Advanced Statistics</h3>
+
+    <p>Track how your links are performing across the web with our 
+    advanced statistics dashboard.</p>
+    
+    <div class="stats-card">
+      <div class="stats-title">Brand Recognition</div>
+      <p>Boost your brand recognition with each click. Generic links don’t 
+      mean a thing. Branded links help instil confidence in your content.</p>
+    </div>
+
+    <div class="stats-card">
+     <div class="stats-title">Detailed Records</div>
+      <p>Gain insights into who is clicking your links. Knowing when and where 
+      people engage with your content helps inform better decisions.</p>
+    </div>
+
+    <div class="stats-card">
+     <div class="stats-title">Fully Customizable</div>
+      <p>Improve brand awareness and content discoverability through customizable 
+      links, supercharging audience engagement.</p>
+    </div>
+
+  </div>
+  <div id="Boost">
+    <h4>Boost your links today</h4>
+
+    <div class="get-started">Get Started</div>
+  </div>
+  <footer>
+    <img src="./images/logo.svg" alt="footer-logo">
+    <span>Features</span>
+
+    <a>Link Shortening</a>
+    <a>Branded Links</a>
+    <a>Analytics</a>
+
+    <span>Resources</span>
+
+    <a>Blog</a>
+    <a>Developers</a>
+    <a>Support</a>
+
+    <span>Company</span>
+    <a>About</a>
+    <a>Our Team</a>
+    <a>Careers</a>
+    <a>Contact</a>
+  </footer>
+  <script src="./menu.js"></script>
+</body>
+</html>
