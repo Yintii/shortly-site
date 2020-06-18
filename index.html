@@ -12,8 +12,6 @@
 </head>
 <body>
   <header>
-    <!-- Logo is stretched because the nav div is pushing it down more, need to
-    implement the humburger button for the drop down menu -->
     <img class="logoimg" src="./images/logo.svg" alt="logo">
     <div id="dropdown">
       <i onclick="dropmenu()" id="menubtn" class="fas fa-bars fa-3x"></i>
@@ -23,6 +21,7 @@
           <a class="nav-link">Pricing</a>
           <a class="nav-link">Resources</a>
         </div>
+        <hr />
         <div id="nav-login">
           <a class="nav-link">Login</a>
           <a class="nav-link">Sign Up</a>
@@ -47,6 +46,7 @@
   </div>
 
   <div id="shortener">
+    <img src="./images/bg-shorten-mobile.svg" alt="shorten-bg">
     <input type="text" name="shorteni" />
     <div id="shorten-btn">Shorten It!</div>
   </div>
