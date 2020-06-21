@@ -70,7 +70,7 @@ nav{
     text-align: center;;
 }
 
-#top-section > .get-started{
+.get-started{
     text-align: center;
     padding: 3% 8%;
     color:white;
@@ -90,7 +90,6 @@ nav{
     height: 148px;
     border-radius: 15px;
     margin:auto;
-
 }
 #shortener > img{
     position: relative;
@@ -111,6 +110,7 @@ input{
     padding-left:5%;
     font-family: 'Poppins', sans-serif;
     left:10%;bottom:50%;
+    border: none;
 }
 #shorten-btn{
     position: relative;
@@ -139,7 +139,7 @@ input{
 }
 #advanced-statistics{
     width:90%;
-    margin: 5% auto;
+    margin:  10% auto 0 auto;
     z-index: 1;
     padding: 10% 0 15% 0;
 }
@@ -178,6 +178,50 @@ input{
 .cust{
     margin:-25px;
 }
+#Boost{
+    display: flex;
+    flex-flow: column nowrap;
+    z-index: 1;
+    color:white;
+    text-align: center;
+    margin-bottom: 30%;
+}
+#Boost > img{
+    z-index: -1;
+    width: 100%;
+    position: absolute;
+    background-color: hsl(257, 27%, 26%);
+}
+#boost-btn-area{
+    position: relative;
+    top:5em;
+}
+footer{
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    background-color: hsl(260, 8%, 14%);
+}
+.footer-sec{
+    color:white;
+    margin: 5% 0;
+}
+footer a {
+    color:grey;
+    margin: 1% 0 0 0;
+}
+footer img {
+    width:50%;
+    margin: 5% auto;
 
+}
+#social-links{
+    color:white;
+    text-align: center;
+    margin: 5% 0;
+}
+#social-links i {
+    padding: 5%;
+}
 .hidden{display: none;}
 .show {display:block;}
