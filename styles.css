@@ -101,26 +101,28 @@ nav{
 }
 input{
     position: relative;
+    display: flex;
+    align-self: left;
     z-index: 1;
-    width:250px;
+    width:80%;
     height:40px;
-    margin: 0 auto;
+    padding:0;
     text-align: left;
     border-radius: 5px;
-    padding-left:5%;
     font-family: 'Poppins', sans-serif;
-    left:10%;bottom:50%;
+    bottom:50%;
     border: none;
+}
+#shorten-box{
+    text-align: center;
+    left:10%;
 }
 #shorten-btn{
     position: relative;
-    left:-238px;top:10%;
-    width:82%;
+    right:70%;top:20%;
     background-color: hsl(180, 66%, 49%);
     color:white;
-    padding: 2% 0%;
     text-align: center;
-    margin-top: 10%;
     font-family: 'Poppins', sans-serif;
 }
 #middle-section{
@@ -186,6 +188,10 @@ input{
     text-align: center;
     margin-bottom: 30%;
 }
+#boost-links{
+    font-size:18pt;
+    font-weight:700;
+}
 #Boost > img{
     z-index: -1;
     width: 100%;
@@ -194,7 +200,11 @@ input{
 }
 #boost-btn-area{
     position: relative;
-    top:5em;
+    top:6em;
+}
+#boost-btn-area .get-started{
+    width:50%;
+    padding: 2% 0%;
 }
 footer{
     display: flex;
@@ -221,7 +231,7 @@ footer img {
     margin: 5% 0;
 }
 #social-links i {
-    padding: 5%;
+    padding: 10% 5%;
 }
 .hidden{display: none;}
 .show {display:block;}
