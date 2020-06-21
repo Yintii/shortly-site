@@ -123,6 +123,61 @@ input{
     margin-top: 10%;
     font-family: 'Poppins', sans-serif;
 }
+#middle-section{
+    background-color: hsl(257, 7%, 90%);
+    text-align: center;
+    width:100%;
+    z-index: -1;
+}
+.icon-blue-bar{
+    position:absolute;
+    z-index: 0;
+    left:50%;
+    width:10px; height:160px;
+    background-color: cyan;
+    margin: 0px -5px;
+}
+#advanced-statistics{
+    width:90%;
+    margin: 5% auto;
+    z-index: 1;
+    padding: 10% 0 15% 0;
+}
+#AS-title{
+    font-size: 24pt;
+    font-weight: 700;
+}
+.stats-card{
+    background:white;
+    padding:25% 5% 5% 5%;
+    margin-top:5%;
+    border-radius: 5%;
+}
+.stats-card p{
+    color:grey;
+}
+.stats-title{
+    font-size:16pt;
+    font-weight: 700;
+}
+.icon-bg{
+    display: inline-block;
+    position: relative;
+    top: 65px;
+    background-color: hsl(257, 27%, 26%);
+    width:100px;
+    height:100px;
+    border-radius: 100%;
+}
+.card-icon{
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin: -20px;
+}
+.cust{
+    margin:-25px;
+}
 
 .hidden{display: none;}
 .show {display:block;}
