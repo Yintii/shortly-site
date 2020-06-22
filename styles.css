@@ -296,9 +296,21 @@ Desktop Styles
     input{
         width:40%;
     }
+    #shortener{
+        flex-flow:row nowrap;
+        justify-content: space-between;
+    }
+    input{
+        width:40%;
+    }
     #shorten-btn{
-        right:20px;
-        top:-25px;
+    }
+    #shorten-box{
+        left:-300px;
+    }
+    #shortener > img {
+        position: relative;
+        
     }
     #menubtn{
         display:none;
